@@ -36,8 +36,6 @@ public:
     QTabWidget *tabWidget;
     QWidget *tab;
     QScrollBar *verticalScrollBar_3;
-    QLabel *label;
-    QLabel *label_3;
     QWidget *tab_2;
     QGroupBox *groupBox;
     QTextEdit *textEdit;
@@ -45,7 +43,6 @@ public:
     QWidget *tab_3;
     QScrollBar *horizontalScrollBar_4;
     QScrollBar *verticalScrollBar_4;
-    QLabel *label_5;
     QTabWidget *tabWidget_3;
     QWidget *tab_4;
     QLabel *label_7;
@@ -80,6 +77,8 @@ public:
     QLabel *label_10;
     QLabel *label_11;
     QWidget *tab_7;
+    QWidget *tab_8;
+    QWidget *tab_9;
     QScrollBar *horizontalScrollBar_2;
     QMenuBar *menubar;
     QMenu *menu;
@@ -101,25 +100,13 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(770, 0, 231, 411));
+        tabWidget->setGeometry(QRect(770, 0, 231, 401));
         tab = new QWidget();
         tab->setObjectName(QString::fromUtf8("tab"));
         verticalScrollBar_3 = new QScrollBar(tab);
         verticalScrollBar_3->setObjectName(QString::fromUtf8("verticalScrollBar_3"));
         verticalScrollBar_3->setGeometry(QRect(220, 0, 16, 391));
         verticalScrollBar_3->setOrientation(Qt::Vertical);
-        label = new QLabel(tab);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(20, 20, 41, 51));
-        label->setMaximumSize(QSize(245245, 2552412));
-        label->setPixmap(QPixmap(QString::fromUtf8("../pic/8086fec642ff1c74a3ec3ce6002a036.png")));
-        label->setScaledContents(false);
-        label_3 = new QLabel(tab);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(120, 20, 91, 51));
-        label_3->setMaximumSize(QSize(245245, 2552412));
-        label_3->setPixmap(QPixmap(QString::fromUtf8("../../Desktop/\351\241\271\347\233\256\350\265\204\346\226\231/iloveimg-resized (1)/\346\235\241\344\273\266\345\210\244\346\226\255.png")));
-        label_3->setScaledContents(false);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QString::fromUtf8("tab_2"));
@@ -143,16 +130,9 @@ public:
         verticalScrollBar_4->setObjectName(QString::fromUtf8("verticalScrollBar_4"));
         verticalScrollBar_4->setGeometry(QRect(550, -10, 16, 381));
         verticalScrollBar_4->setOrientation(Qt::Vertical);
-        label_5 = new QLabel(tab_3);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(80, 50, 481, 231));
-        label_5->setMaximumSize(QSize(245245, 2552412));
-        label_5->setPixmap(QPixmap(QString::fromUtf8("../../Desktop/\351\241\271\347\233\256\350\265\204\346\226\231/iloveimg-resized (1)/iloveimg-resized (1).zip.png")));
-        label_5->setScaledContents(false);
         tabWidget_2->addTab(tab_3, QString());
         verticalScrollBar_4->raise();
         horizontalScrollBar_4->raise();
-        label_5->raise();
         tabWidget_3 = new QTabWidget(centralwidget);
         tabWidget_3->setObjectName(QString::fromUtf8("tabWidget_3"));
         tabWidget_3->setGeometry(QRect(0, 0, 211, 621));
@@ -289,6 +269,12 @@ public:
         tab_7 = new QWidget();
         tab_7->setObjectName(QString::fromUtf8("tab_7"));
         tabWidget_4->addTab(tab_7, QString());
+        tab_8 = new QWidget();
+        tab_8->setObjectName(QString::fromUtf8("tab_8"));
+        tabWidget_4->addTab(tab_8, QString());
+        tab_9 = new QWidget();
+        tab_9->setObjectName(QString::fromUtf8("tab_9"));
+        tabWidget_4->addTab(tab_9, QString());
         horizontalScrollBar_2 = new QScrollBar(centralwidget);
         horizontalScrollBar_2->setObjectName(QString::fromUtf8("horizontalScrollBar_2"));
         horizontalScrollBar_2->setGeometry(QRect(210, 610, 551, 16));
@@ -296,7 +282,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1004, 27));
+        menubar->setGeometry(QRect(0, 0, 1004, 22));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);
@@ -324,7 +310,7 @@ public:
         tabWidget->setCurrentIndex(0);
         tabWidget_2->setCurrentIndex(0);
         tabWidget_3->setCurrentIndex(0);
-        tabWidget_4->setCurrentIndex(0);
+        tabWidget_4->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -334,13 +320,10 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "GraphiBotics", nullptr));
         actionws->setText(QCoreApplication::translate("MainWindow", "\346\226\260\345\273\272\345\267\245\347\250\213", nullptr));
-        label->setText(QString());
-        label_3->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("MainWindow", "\345\233\276\345\275\242\351\200\273\350\276\221", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("MainWindow", "\346\250\241\346\235\277\345\267\245\347\250\213", nullptr));
         groupBox->setTitle(QCoreApplication::translate("MainWindow", "\344\273\243\347\240\201", nullptr));
-        label_5->setText(QString());
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QCoreApplication::translate("MainWindow", "\347\244\272\344\276\213\345\267\245\347\250\2131", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QCoreApplication::translate("MainWindow", "project", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "\350\256\276\345\244\207IP:", nullptr));
         lineEdit->setText(QCoreApplication::translate("MainWindow", "192.168.1.101", nullptr));
         groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "\350\275\257\344\275\223\346\234\272\345\231\250\344\272\2721", nullptr));
@@ -357,8 +340,10 @@ public:
         tabWidget_3->setTabText(tabWidget_3->indexOf(tab_5), QCoreApplication::translate("MainWindow", "\346\226\207\344\273\266", nullptr));
         label_10->setText(QCoreApplication::translate("MainWindow", "14:57:29: \346\255\243\345\234\250\345\220\257\345\212\250 \" gcc -o project main.c control\" ", nullptr));
         label_11->setText(QCoreApplication::translate("MainWindow", "./project", nullptr));
-        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_6), QCoreApplication::translate("MainWindow", "\350\276\223\345\207\272", nullptr));
-        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_7), QCoreApplication::translate("MainWindow", "\347\273\210\347\253\257", nullptr));
+        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_6), QCoreApplication::translate("MainWindow", "\351\227\256\351\242\230", nullptr));
+        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_7), QCoreApplication::translate("MainWindow", "\350\276\223\345\207\272", nullptr));
+        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_8), QCoreApplication::translate("MainWindow", "\350\260\203\350\257\225\346\216\247\345\210\266\345\217\260", nullptr));
+        tabWidget_4->setTabText(tabWidget_4->indexOf(tab_9), QCoreApplication::translate("MainWindow", "\347\273\210\347\253\257", nullptr));
         menu->setTitle(QCoreApplication::translate("MainWindow", "\346\226\207\344\273\266", nullptr));
         menu_2->setTitle(QCoreApplication::translate("MainWindow", "\345\237\272\346\234\254", nullptr));
         menu_3->setTitle(QCoreApplication::translate("MainWindow", "\346\216\247\345\210\266\345\231\250", nullptr));
