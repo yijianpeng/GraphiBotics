@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics",
+	"CMAKE_SOURCE_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics",
+	"INCLUDE_DIR" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/yijianpeng/Project/QTproject/GraphiBotics/pic/1.png",
+		"/home/yijianpeng/Project/QTproject/GraphiBotics/pic/logo.png",
+		"/home/yijianpeng/Project/QTproject/GraphiBotics/pic/search.png"
+	],
+	"LOCK_FILE" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir/AutoRcc_pic_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "pic" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_pic.cpp",
+	"RCC_EXECUTABLE" : "/home/yijianpeng/anaconda3/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir/AutoRcc_pic_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/yijianpeng/Project/QTproject/GraphiBotics/pic.qrc",
+	"VERBOSITY" : 0
+}

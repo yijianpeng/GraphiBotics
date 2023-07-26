@@ -1,0 +1,8 @@
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/edit_cache.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/rebuild_cache.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/list_install_components.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/install.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/install/local.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/install/strip.dir
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir
