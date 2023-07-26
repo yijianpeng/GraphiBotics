@@ -83,6 +83,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
 			"/home/yijianpeng/Project/QTproject/GraphiBotics/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -141,6 +147,11 @@
 	[
 		[
 			"/home/yijianpeng/Project/QTproject/GraphiBotics/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp",
 			"MU",
 			null
 		],

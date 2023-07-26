@@ -1,7 +1,7 @@
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,9 +117,9 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../widget.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtguiglobal.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qglobal.h \
@@ -169,6 +169,7 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qversiontagging.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtgui-config.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qobjectdefs.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qnamespace.h \
@@ -278,12 +279,17 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../widget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextedit.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qframe.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qmap.h \
@@ -298,4 +304,4 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h

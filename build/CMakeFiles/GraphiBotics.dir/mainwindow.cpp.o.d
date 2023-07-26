@@ -1,9 +1,9 @@
-CMakeFiles/GraphiBotics.dir/main.cpp.o: \
- /home/yijianpeng/Project/QTproject/GraphiBotics/main.cpp \
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtguiglobal.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qglobal.h \
@@ -128,6 +128,7 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qversiontagging.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtgui-config.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qobjectdefs.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qnamespace.h \
@@ -276,31 +277,18 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qkeysequence.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextedit.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qframe.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/ui_mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qmap.h \
  /usr/include/c++/11/variant \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qpen.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qbuttongroup.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -308,4 +296,58 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qguiapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qinputmethod.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qlocale.h
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qlocale.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFormLayout \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qformlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLayout \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qgridlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QGroupBox \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qgroupbox.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qframe.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlabel.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLineEdit \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlineedit.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qpen.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMenu \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmenu.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMenuBar \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmenubar.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmenu.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QScrollBar \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qscrollbar.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractslider.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QStatusBar \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qstatusbar.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabWidget \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextEdit \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextedit.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolBar \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbar.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QVBoxLayout \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolBar \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabBar \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QIcon \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h

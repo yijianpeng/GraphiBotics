@@ -297,6 +297,10 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/./ui_widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -332,7 +336,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractslider.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qstyle.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qrubberband.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlabel.h \

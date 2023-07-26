@@ -31,19 +31,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 74,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 57,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -157,7 +157,8 @@
 				0,
 				1,
 				2,
-				7
+				5,
+				11
 			]
 		}
 	],
@@ -233,7 +234,8 @@
 				0,
 				1,
 				2,
-				7
+				5,
+				11
 			]
 		},
 		{
@@ -241,7 +243,9 @@
 			"sourceIndexes" : 
 			[
 				3,
-				6
+				6,
+				9,
+				10
 			]
 		},
 		{
@@ -249,14 +253,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				5
+				7,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				12
 			]
 		}
 	],
@@ -293,6 +298,22 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
 			"path" : "pic.qrc",
 			"sourceGroupIndex" : 2
 		},
@@ -300,6 +321,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/GraphiBotics_autogen/include/ui_widget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/GraphiBotics_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

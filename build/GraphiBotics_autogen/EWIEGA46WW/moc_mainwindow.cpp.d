@@ -1,7 +1,5 @@
-/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
+/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
   /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/moc_predefs.h \
-  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qalgorithms.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qarraydata.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qatomic.h \
@@ -26,7 +24,6 @@
   /home/yijianpeng/anaconda3/include/qt/QtCore/qline.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qlist.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qlogging.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qmap.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qmargins.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qmetatype.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qnamespace.h \
@@ -56,12 +53,9 @@
   /home/yijianpeng/anaconda3/include/qt/QtCore/qsystemdetection.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qtcore-config.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qtypeinfo.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvarlengtharray.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvector.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qversiontagging.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qbrush.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qcolor.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h \
@@ -74,34 +68,20 @@
   /home/yijianpeng/anaconda3/include/qt/QtGui/qmatrix.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpaintdevice.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpalette.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qpen.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpixelformat.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpixmap.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpolygon.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qregion.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qrgb.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qrgba64.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtgui-config.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtguiglobal.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtransform.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qbuttongroup.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qframe.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextedit.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \

@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/GraphiBotics.dir/main.cpp.o"
   "CMakeFiles/GraphiBotics.dir/main.cpp.o.d"
+  "CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o"
+  "CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o.d"
   "CMakeFiles/GraphiBotics.dir/widget.cpp.o"
   "CMakeFiles/GraphiBotics.dir/widget.cpp.o.d"
   "GraphiBotics"

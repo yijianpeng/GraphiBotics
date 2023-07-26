@@ -120,10 +120,24 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphiBotics.dir/widget.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yijianpeng/Project/QTproject/GraphiBotics/widget.cpp -o CMakeFiles/GraphiBotics.dir/widget.cpp.s
 
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: CMakeFiles/GraphiBotics.dir/flags.make
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: CMakeFiles/GraphiBotics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o -MF CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o.d -o CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o -c /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp
+
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphiBotics.dir/mainwindow.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp > CMakeFiles/GraphiBotics.dir/mainwindow.cpp.i
+
+CMakeFiles/GraphiBotics.dir/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphiBotics.dir/mainwindow.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp -o CMakeFiles/GraphiBotics.dir/mainwindow.cpp.s
+
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o: CMakeFiles/GraphiBotics.dir/flags.make
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o: GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o: CMakeFiles/GraphiBotics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o -MF CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o.d -o CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o -c /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp
 
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.i: cmake_force
@@ -139,6 +153,7 @@ GraphiBotics_OBJECTS = \
 "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/GraphiBotics.dir/main.cpp.o" \
 "CMakeFiles/GraphiBotics.dir/widget.cpp.o" \
+"CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o" \
 "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o"
 
 # External object files for target GraphiBotics
@@ -147,13 +162,14 @@ GraphiBotics_EXTERNAL_OBJECTS =
 GraphiBotics: CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o
 GraphiBotics: CMakeFiles/GraphiBotics.dir/main.cpp.o
 GraphiBotics: CMakeFiles/GraphiBotics.dir/widget.cpp.o
+GraphiBotics: CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o
 GraphiBotics: CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o
 GraphiBotics: CMakeFiles/GraphiBotics.dir/build.make
 GraphiBotics: /home/yijianpeng/anaconda3/lib/libQt5Widgets.so.5.15.2
 GraphiBotics: /home/yijianpeng/anaconda3/lib/libQt5Gui.so.5.15.2
 GraphiBotics: /home/yijianpeng/anaconda3/lib/libQt5Core.so.5.15.2
 GraphiBotics: CMakeFiles/GraphiBotics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GraphiBotics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GraphiBotics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GraphiBotics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

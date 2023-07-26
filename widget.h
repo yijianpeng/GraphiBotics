@@ -5,7 +5,8 @@
 #include <QTextBrowser>
 #include <QButtonGroup>
 #include <QStandardItemModel>
-
+#include <QMainWindow>
+#include "mainwindow.h"
 class QLabel;
 class QLineEdit;
 class QPushButton;
@@ -29,6 +30,7 @@ private:
     QLineEdit *SearchLineEdit;
     QButtonGroup *btnGroup;
     QStandardItemModel *m_pmodel;
+    MainWindow w2;
     
 
 public slots: // 在slots关键字下声明槽函数

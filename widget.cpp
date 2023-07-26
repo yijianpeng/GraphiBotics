@@ -145,6 +145,7 @@ void Widget::on_openpjbtn_clicked()
 //新建工程的槽函数
 void Widget::on_newpjbtn_clicked()
 {
+    w2.show();
 
 }
 

@@ -349,7 +349,11 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: GraphiB
   /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h
 
 CMakeFiles/GraphiBotics.dir/main.cpp.o: /home/yijianpeng/Project/QTproject/GraphiBotics/main.cpp \
   /usr/include/stdc-predef.h \
@@ -696,6 +700,10 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: /home/yijianpeng/Project/QTproject/Graph
   /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -1050,6 +1058,10 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
   GraphiBotics_autogen/include/ui_widget.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -1085,7 +1097,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractslider.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qstyle.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qrubberband.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlabel.h \
@@ -1229,6 +1240,10 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h:
 
@@ -1461,6 +1476,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
