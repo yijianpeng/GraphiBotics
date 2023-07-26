@@ -304,6 +304,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/./ui_widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QIcon \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -382,7 +384,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QFile \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QIcon \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QDesktopServices \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qdesktopservices.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qstandardpaths.h \

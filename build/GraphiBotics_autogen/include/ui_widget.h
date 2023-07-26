@@ -10,6 +10,7 @@
 #define UI_WIDGET_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
@@ -51,12 +52,14 @@ public:
     QToolButton *toolButton_1;
     QToolButton *toolButton_3;
     QToolButton *toolButton_2;
+    QToolButton *settingbtn;
 
     void setupUi(QWidget *Widget)
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName(QString::fromUtf8("Widget"));
         Widget->resize(800, 532);
+        Widget->setStyleSheet(QString::fromUtf8(""));
         SideBar = new QStackedWidget(Widget);
         SideBar->setObjectName(QString::fromUtf8("SideBar"));
         SideBar->setGeometry(QRect(190, 0, 611, 451));
@@ -246,6 +249,13 @@ public:
 
         gridLayout->addWidget(toolButton_2, 1, 0, 1, 1);
 
+        settingbtn = new QToolButton(Widget);
+        settingbtn->setObjectName(QString::fromUtf8("settingbtn"));
+        settingbtn->setGeometry(QRect(0, 505, 31, 26));
+        settingbtn->setStyleSheet(QString::fromUtf8(""));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/pic/setting.png"), QSize(), QIcon::Normal, QIcon::Off);
+        settingbtn->setIcon(icon);
 
         retranslateUi(Widget);
 
@@ -268,6 +278,7 @@ public:
         toolButton_1->setText(QCoreApplication::translate("Widget", "\351\241\271\347\233\256", nullptr));
         toolButton_3->setText(QCoreApplication::translate("Widget", "\346\217\222\344\273\266", nullptr));
         toolButton_2->setText(QCoreApplication::translate("Widget", "\350\207\252\345\256\232\344\271\211", nullptr));
+        settingbtn->setText(QString());
     } // retranslateUi
 
 };

@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>欢迎访问GraphiBotics</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QStackedWidget" name="SideBar">
    <property name="geometry">
     <rect>
@@ -321,8 +324,30 @@ QToolButton:pressed,QToolButton:checked{
     </item>
    </layout>
   </widget>
+  <widget class="QToolButton" name="settingbtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>505</y>
+     <width>31</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="pic.qrc">
+     <normaloff>:/pic/setting.png</normaloff>:/pic/setting.png</iconset>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
  <connections/>
  <slots>
   <slot>openProject()</slot>

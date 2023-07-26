@@ -74,6 +74,7 @@ GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: CMakeFiles/GraphiBotics_autogen.dir
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/1.png
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/logo.png
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/search.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/setting.png
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/anaconda3/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for pic.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir/AutoRcc_pic_EWIEGA46WW_Info.json Debug
