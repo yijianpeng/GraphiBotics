@@ -23,7 +23,7 @@
       <x>770</x>
       <y>0</y>
       <width>231</width>
-      <height>411</height>
+      <height>401</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -44,56 +44,6 @@
       </property>
       <property name="orientation">
        <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>20</y>
-        <width>41</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>245245</width>
-        <height>2552412</height>
-       </size>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../pic/8086fec642ff1c74a3ec3ce6002a036.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>20</y>
-        <width>91</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>245245</width>
-        <height>2552412</height>
-       </size>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../../Desktop/项目资料/iloveimg-resized (1)/条件判断.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
       </property>
      </widget>
     </widget>
@@ -140,7 +90,7 @@
     </property>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
-      <string>示例工程1</string>
+      <string>project</string>
      </attribute>
      <widget class="QScrollBar" name="horizontalScrollBar_4">
       <property name="geometry">
@@ -168,34 +118,8 @@
        <enum>Qt::Vertical</enum>
       </property>
      </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>50</y>
-        <width>481</width>
-        <height>231</height>
-       </rect>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>245245</width>
-        <height>2552412</height>
-       </size>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>../../Desktop/项目资料/iloveimg-resized (1)/iloveimg-resized (1).zip.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
      <zorder>verticalScrollBar_4</zorder>
      <zorder>horizontalScrollBar_4</zorder>
-     <zorder>label_5</zorder>
     </widget>
    </widget>
    <widget class="QTabWidget" name="tabWidget_3">
@@ -400,11 +324,11 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab_6">
      <attribute name="title">
-      <string>输出</string>
+      <string>问题</string>
      </attribute>
      <widget class="QScrollBar" name="verticalScrollBar_2">
       <property name="geometry">
@@ -448,6 +372,16 @@
     </widget>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
+      <string>输出</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>调试控制台</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
       <string>终端</string>
      </attribute>
     </widget>
@@ -472,7 +406,7 @@
      <x>0</x>
      <y>0</y>
      <width>1004</width>
-     <height>27</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
