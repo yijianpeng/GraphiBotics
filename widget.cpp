@@ -16,7 +16,7 @@
 #include <QIcon>
 #include <QDesktopServices>
 #include <QUrl>
-
+#include <QMessageBox>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -115,7 +115,6 @@ void Widget::paintEvent(QPaintEvent *event)
     painter.drawText(75,63,updatastr);
 }
 
-
 Widget::~Widget()
 {
     delete ui;
@@ -125,21 +124,22 @@ Widget::~Widget()
 void Widget::on_openpjbtn_clicked()
 {
     qDebug("Open Project button clicked");
-    QString fileName = QFileDialog::getOpenFileName(this, "选择工程文件", "", "工程文件 (*.pro);;所有文件 (*)");
-    if (!fileName.isEmpty())
-    {
-        QFile file(fileName);
-        if (file.open(QIODevice::ReadOnly))
-        {
-            // 进行读取或其他处理
-            file.close();
-        }
-        else
-        {
-            qDebug() << "无法打开文件：" << file.errorString();
-        }
-        qDebug() << "选择的文件路径：" << fileName;
+    //
+    QString filePath = QFileDialog::getOpenFileName(this, tr("Open .cpp File"), QDir::homePath(), tr("C++ Files (*.cpp);;All Files (*.*)"));
+    if (filePath.isEmpty()) return;
+        if (filePath.isEmpty()) return;
+
+    QFile file(filePath); //
+
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, tr("Error"), tr("Cannot open file: %1").arg(file.errorString()));
+        return;
     }
+    QTextStream in(&file);
+    QString content = in.readAll();
+    file.close();
+    w2.setContent(content);
+    w2.show();
 }
 
 //新建工程的槽函数
@@ -156,4 +156,10 @@ void Widget::on_getpjbtn_clicked()
     QDesktopServices::openUrl(QUrl("https://www.csdn.net", QUrl::TolerantMode));
 }
 
+
+//设置按钮的槽函数
+void Widget::on_settingbtn_clicked()
+{
+
+}
 

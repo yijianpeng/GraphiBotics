@@ -1,6 +1,8 @@
 /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
   /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/moc_predefs.h \
+  /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h \
   /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qalgorithms.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qarraydata.h \
@@ -14,7 +16,10 @@
   /home/yijianpeng/anaconda3/include/qt/QtCore/qconfig.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcontainerfwd.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qdatastream.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qfiledevice.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qflags.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qgenericatomic.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qglobal.h \
@@ -41,7 +46,9 @@
   /home/yijianpeng/anaconda3/include/qt/QtCore/qrect.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qrefcount.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qregexp.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qscopedpointer.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qset.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qshareddata.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
@@ -62,12 +69,17 @@
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvector.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qversiontagging.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/QSyntaxHighlighter \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/QTextCharFormat \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qbrush.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qcolor.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qevent.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qfontdatabase.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qfontinfo.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qfontmetrics.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qglyphrun.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qimage.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qkeysequence.h \
@@ -78,17 +90,23 @@
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpixelformat.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpixmap.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qpolygon.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qrawfont.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qregion.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qrgb.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qrgba64.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextlayout.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextobject.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtgui-config.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtguiglobal.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qtouchdevice.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtransform.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qvector2d.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
@@ -266,6 +284,7 @@
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -304,6 +323,7 @@
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -316,15 +336,19 @@
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \

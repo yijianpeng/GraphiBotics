@@ -301,10 +301,28 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QSyntaxHighlighter \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextobject.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qset.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qvector2d.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtouchdevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qglyphrun.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qrawfont.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qfontdatabase.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QTextCharFormat \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qguiapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qinputmethod.h \

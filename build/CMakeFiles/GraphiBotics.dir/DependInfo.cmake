@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp" "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o.d"
   "/home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/mocs_compilation.cpp" "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o.d"
+  "/home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.cpp" "CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o.d"
   "/home/yijianpeng/Project/QTproject/GraphiBotics/main.cpp" "CMakeFiles/GraphiBotics.dir/main.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/main.cpp.o.d"
   "/home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp" "CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o.d"
   "/home/yijianpeng/Project/QTproject/GraphiBotics/widget.cpp" "CMakeFiles/GraphiBotics.dir/widget.cpp.o" "gcc" "CMakeFiles/GraphiBotics.dir/widget.cpp.o.d"

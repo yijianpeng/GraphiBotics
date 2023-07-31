@@ -1,7 +1,7 @@
 CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_cpp_syntax_highlighter.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,10 +117,9 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../cpp_syntax_highlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QSyntaxHighlighter \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtguiglobal.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qglobal.h \
  /usr/include/c++/11/cstddef /usr/include/assert.h \
@@ -168,13 +167,10 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qnumeric.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qversiontagging.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtgui-config.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qobject.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qobjectdefs.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qnamespace.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qobject.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qchar.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qbytearray.h \
@@ -249,38 +245,71 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qmargins.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qpaintdevice.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qrect.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qsize.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qpoint.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qpalette.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextobject.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qcolor.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qrgb.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qrgba64.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qshareddata.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qhash.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qmap.h \
+ /usr/include/c++/11/variant \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qpen.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qbrush.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qpoint.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qmatrix.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qpolygon.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qrect.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qmargins.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qsize.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qregion.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qdatastream.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qiodevice.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qline.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtransform.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qimage.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qpaintdevice.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qpixelformat.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qpixmap.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qshareddata.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qhash.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qkeysequence.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qset.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qvector2d.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtouchdevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qglyphrun.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qrawfont.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qfontdatabase.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QTextCharFormat \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qpalette.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qfontmetrics.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qfontinfo.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qkeysequence.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../cpp_syntax_highlighter.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
@@ -291,14 +320,6 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qframe.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextdocument.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qmap.h \
- /usr/include/c++/11/variant \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextoption.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextcursor.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
- /home/yijianpeng/anaconda3/include/qt/QtGui/qpen.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qbuttongroup.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \

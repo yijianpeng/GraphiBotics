@@ -23,6 +23,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        cpp_syntax_highlighter.cpp
+        cpp_syntax_highlighter.h
 )
 
 
@@ -37,6 +39,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         ${PROJECT_RESOURCES}
         mainwindow.h mainwindow.cpp mainwindow.ui
+        cpp_syntax_highlighter.cpp
+        cpp_syntax_highlighter.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GraphiBotics APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

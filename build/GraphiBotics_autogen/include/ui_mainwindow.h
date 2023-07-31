@@ -19,10 +19,10 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
-#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -35,14 +35,9 @@ public:
     QWidget *centralwidget;
     QTabWidget *tabWidget;
     QWidget *tab;
-    QScrollBar *verticalScrollBar_3;
     QWidget *tab_2;
-    QGroupBox *groupBox;
-    QTextEdit *textEdit;
     QTabWidget *tabWidget_2;
     QWidget *tab_3;
-    QScrollBar *horizontalScrollBar_4;
-    QScrollBar *verticalScrollBar_4;
     QTabWidget *tabWidget_3;
     QWidget *tab_4;
     QLabel *label_7;
@@ -69,7 +64,6 @@ public:
     QLineEdit *lineEdit_7;
     QLineEdit *lineEdit_8;
     QLineEdit *lineEdit_9;
-    QScrollBar *verticalScrollBar;
     QWidget *tab_5;
     QTabWidget *tabWidget_4;
     QWidget *tab_6;
@@ -79,7 +73,7 @@ public:
     QWidget *tab_7;
     QWidget *tab_8;
     QWidget *tab_9;
-    QScrollBar *horizontalScrollBar_2;
+    QPlainTextEdit *plainTextEdit;
     QMenuBar *menubar;
     QMenu *menu;
     QMenu *menu_2;
@@ -103,36 +97,16 @@ public:
         tabWidget->setGeometry(QRect(770, 0, 231, 401));
         tab = new QWidget();
         tab->setObjectName(QString::fromUtf8("tab"));
-        verticalScrollBar_3 = new QScrollBar(tab);
-        verticalScrollBar_3->setObjectName(QString::fromUtf8("verticalScrollBar_3"));
-        verticalScrollBar_3->setGeometry(QRect(220, 0, 16, 391));
-        verticalScrollBar_3->setOrientation(Qt::Vertical);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QString::fromUtf8("tab_2"));
         tabWidget->addTab(tab_2, QString());
-        groupBox = new QGroupBox(centralwidget);
-        groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(770, 410, 221, 211));
-        textEdit = new QTextEdit(groupBox);
-        textEdit->setObjectName(QString::fromUtf8("textEdit"));
-        textEdit->setGeometry(QRect(0, 20, 221, 201));
         tabWidget_2 = new QTabWidget(centralwidget);
         tabWidget_2->setObjectName(QString::fromUtf8("tabWidget_2"));
         tabWidget_2->setGeometry(QRect(210, 0, 561, 401));
         tab_3 = new QWidget();
         tab_3->setObjectName(QString::fromUtf8("tab_3"));
-        horizontalScrollBar_4 = new QScrollBar(tab_3);
-        horizontalScrollBar_4->setObjectName(QString::fromUtf8("horizontalScrollBar_4"));
-        horizontalScrollBar_4->setGeometry(QRect(0, 360, 561, 16));
-        horizontalScrollBar_4->setOrientation(Qt::Horizontal);
-        verticalScrollBar_4 = new QScrollBar(tab_3);
-        verticalScrollBar_4->setObjectName(QString::fromUtf8("verticalScrollBar_4"));
-        verticalScrollBar_4->setGeometry(QRect(550, -10, 16, 381));
-        verticalScrollBar_4->setOrientation(Qt::Vertical);
         tabWidget_2->addTab(tab_3, QString());
-        verticalScrollBar_4->raise();
-        horizontalScrollBar_4->raise();
         tabWidget_3 = new QTabWidget(centralwidget);
         tabWidget_3->setObjectName(QString::fromUtf8("tabWidget_3"));
         tabWidget_3->setGeometry(QRect(0, 0, 211, 621));
@@ -143,7 +117,7 @@ public:
         label_7->setGeometry(QRect(0, 10, 61, 16));
         lineEdit = new QLineEdit(tab_4);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(70, 10, 121, 21));
+        lineEdit->setGeometry(QRect(50, 10, 121, 21));
         groupBox_3 = new QGroupBox(tab_4);
         groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
         groupBox_3->setGeometry(QRect(0, 80, 201, 161));
@@ -242,10 +216,6 @@ public:
 
         formLayout_2->setWidget(3, QFormLayout::FieldRole, lineEdit_9);
 
-        verticalScrollBar = new QScrollBar(tab_4);
-        verticalScrollBar->setObjectName(QString::fromUtf8("verticalScrollBar"));
-        verticalScrollBar->setGeometry(QRect(200, 0, 20, 601));
-        verticalScrollBar->setOrientation(Qt::Vertical);
         tabWidget_3->addTab(tab_4, QString());
         tab_5 = new QWidget();
         tab_5->setObjectName(QString::fromUtf8("tab_5"));
@@ -275,10 +245,9 @@ public:
         tab_9 = new QWidget();
         tab_9->setObjectName(QString::fromUtf8("tab_9"));
         tabWidget_4->addTab(tab_9, QString());
-        horizontalScrollBar_2 = new QScrollBar(centralwidget);
-        horizontalScrollBar_2->setObjectName(QString::fromUtf8("horizontalScrollBar_2"));
-        horizontalScrollBar_2->setGeometry(QRect(210, 610, 551, 16));
-        horizontalScrollBar_2->setOrientation(Qt::Horizontal);
+        plainTextEdit = new QPlainTextEdit(centralwidget);
+        plainTextEdit->setObjectName(QString::fromUtf8("plainTextEdit"));
+        plainTextEdit->setGeometry(QRect(770, 410, 231, 211));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -322,7 +291,6 @@ public:
         actionws->setText(QCoreApplication::translate("MainWindow", "\346\226\260\345\273\272\345\267\245\347\250\213", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("MainWindow", "\345\233\276\345\275\242\351\200\273\350\276\221", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("MainWindow", "\346\250\241\346\235\277\345\267\245\347\250\213", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("MainWindow", "\344\273\243\347\240\201", nullptr));
         tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QCoreApplication::translate("MainWindow", "project", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "\350\256\276\345\244\207IP:", nullptr));
         lineEdit->setText(QCoreApplication::translate("MainWindow", "192.168.1.101", nullptr));

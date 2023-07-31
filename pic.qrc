@@ -1,8 +1,32 @@
 <RCC>
-  <qresource prefix="/">
-    <file>pic/setting.png</file>
-    <file>pic/search.png</file>
-    <file>pic/logo.png</file>
-    <file>pic/1.png</file>
-  </qresource>
+    <qresource prefix="/">
+        <file>pic/setting.png</file>
+        <file>pic/search.png</file>
+        <file>pic/logo.png</file>
+        <file>pic/1.png</file>
+        <file>pic/yunxing.png</file>
+        <file>pic/xinhao.png</file>
+        <file>pic/xie1.png</file>
+        <file>pic/xie.png</file>
+        <file>pic/wenjianchaunshu.png</file>
+        <file>pic/user.png</file>
+        <file>pic/stopline.png</file>
+        <file>pic/start.png</file>
+        <file>pic/shijiao.png</file>
+        <file>pic/shijian.png</file>
+        <file>pic/restart.png</file>
+        <file>pic/peizhi.png</file>
+        <file>pic/lianjie3.png</file>
+        <file>pic/lianjie.png</file>
+        <file>pic/kongzhimianban.png</file>
+        <file>pic/jiashi.png</file>
+        <file>pic/inout.png</file>
+        <file>pic/inandout.png</file>
+        <file>pic/duankai.png</file>
+        <file>pic/CPU.png</file>
+        <file>pic/cexiao.png</file>
+        <file>pic/bianyi.png</file>
+        <file>pic/beifen.png</file>
+        <file>pic/8086fec642ff1c74a3ec3ce6002a036.png</file>
+    </qresource>
 </RCC>

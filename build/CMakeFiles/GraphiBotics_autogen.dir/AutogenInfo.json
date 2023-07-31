@@ -83,6 +83,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h",
+			"MU",
+			"EWIEGA46WW/moc_cpp_syntax_highlighter.cpp",
+			null
+		],
+		[
 			"/home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -145,6 +151,11 @@
 	"SETTINGS_FILE" : "/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/yijianpeng/Project/QTproject/GraphiBotics/main.cpp",
 			"MU",

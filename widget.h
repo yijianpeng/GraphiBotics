@@ -44,5 +44,6 @@ private slots:
     void on_newpjbtn_clicked();
     void on_getpjbtn_clicked();
 
+    void on_settingbtn_clicked();
 };
 #endif // WIDGET_H

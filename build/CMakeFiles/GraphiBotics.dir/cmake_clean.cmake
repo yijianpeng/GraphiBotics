@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp.o.d"
   "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o"
+  "CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o.d"
   "CMakeFiles/GraphiBotics.dir/main.cpp.o"
   "CMakeFiles/GraphiBotics.dir/main.cpp.o.d"
   "CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o"

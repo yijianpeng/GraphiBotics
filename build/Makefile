@@ -235,6 +235,30 @@ GraphiBotics_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphiBotics.dir/build.make CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.s
 .PHONY : GraphiBotics_autogen/mocs_compilation.cpp.s
 
+cpp_syntax_highlighter.o: cpp_syntax_highlighter.cpp.o
+.PHONY : cpp_syntax_highlighter.o
+
+# target to build an object file
+cpp_syntax_highlighter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphiBotics.dir/build.make CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o
+.PHONY : cpp_syntax_highlighter.cpp.o
+
+cpp_syntax_highlighter.i: cpp_syntax_highlighter.cpp.i
+.PHONY : cpp_syntax_highlighter.i
+
+# target to preprocess a source file
+cpp_syntax_highlighter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphiBotics.dir/build.make CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.i
+.PHONY : cpp_syntax_highlighter.cpp.i
+
+cpp_syntax_highlighter.s: cpp_syntax_highlighter.cpp.s
+.PHONY : cpp_syntax_highlighter.s
+
+# target to generate assembly for a file
+cpp_syntax_highlighter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GraphiBotics.dir/build.make CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.s
+.PHONY : cpp_syntax_highlighter.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -327,6 +351,9 @@ help:
 	@echo "... GraphiBotics_autogen/mocs_compilation.o"
 	@echo "... GraphiBotics_autogen/mocs_compilation.i"
 	@echo "... GraphiBotics_autogen/mocs_compilation.s"
+	@echo "... cpp_syntax_highlighter.o"
+	@echo "... cpp_syntax_highlighter.i"
+	@echo "... cpp_syntax_highlighter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

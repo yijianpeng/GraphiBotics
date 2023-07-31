@@ -301,6 +301,25 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QSyntaxHighlighter \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qsyntaxhighlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextobject.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextlayout.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qset.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qfiledevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qvector2d.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtouchdevice.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qglyphrun.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qrawfont.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qfontdatabase.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QTextCharFormat \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/./ui_widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -309,7 +328,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreevent.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qeventloop.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qguiapplication.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qinputmethod.h \
@@ -328,7 +346,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qheaderview.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractitemview.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qitemselectionmodel.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qset.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qstyleoption.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractspinbox.h \
@@ -374,8 +391,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qdir.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qfileinfo.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qfile.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qfiledevice.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qdialog.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qdebug.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qtextstream.h \
@@ -388,4 +403,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qdesktopservices.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qstandardpaths.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QUrl \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qurl.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMessageBox \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmessagebox.h
