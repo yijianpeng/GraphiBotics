@@ -126,15 +126,17 @@ Widget::~Widget()
     delete ui;
 }
 
+QString Widget::filePath = ""; //定义文件路径的全局变量
 //打开工程的槽函数
 void Widget::on_openpjbtn_clicked()
 {
     qDebug("Open Project button clicked");
-    QString filePath = QFileDialog::getOpenFileName(this, tr("Open .cpp File"), QDir::homePath(), tr("C++ Files (*.cpp);;All Files (*.*)"));
+    filePath= QFileDialog::getOpenFileName(this, tr("Open .cpp File"), QDir::homePath(), tr("C++ Files (*.cpp);;All Files (*.*)"));
     if (filePath.isEmpty()) return;
         if (filePath.isEmpty()) return;
-
     QFile file(filePath); 
+
+    qDebug("%s",qPrintable(filePath)); //文件路径
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QMessageBox::warning(this, tr("Error"), tr("Cannot open file: %1").arg(file.errorString()));

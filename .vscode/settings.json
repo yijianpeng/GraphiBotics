@@ -4,6 +4,8 @@
     "files.associations": {
         "qmessagebox": "cpp",
         "qicon": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "qaction": "cpp",
+        "qvboxlayout": "cpp"
     }
 }

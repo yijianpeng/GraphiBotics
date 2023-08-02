@@ -327,6 +327,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/./ui_widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -386,8 +388,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qimage.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QFont \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
- /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFileDialog \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qdir.h \

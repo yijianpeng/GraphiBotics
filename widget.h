@@ -7,6 +7,7 @@
 #include <QStandardItemModel>
 #include <QMainWindow>
 #include "mainwindow.h"
+#include <QString>
 class QLabel;
 class QLineEdit;
 class QPushButton;
@@ -22,6 +23,8 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+    
+    static QString filePath;
 
 private:
     Ui::Widget *ui;

@@ -383,7 +383,9 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: GraphiB
   /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
-  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h
+  /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h
 
 CMakeFiles/GraphiBotics.dir/cpp_syntax_highlighter.cpp.o: /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.cpp \
   /usr/include/stdc-predef.h \
@@ -1102,6 +1104,8 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: /home/yijianpeng/Project/QTproject/Graph
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -1520,11 +1524,20 @@ CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: /home/yijianpeng/Project/QTproject
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbar.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+  /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qbuttongroup.h \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QVBoxLayout \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qboxlayout.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolBar \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabBar \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \
@@ -1913,6 +1926,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
   GraphiBotics_autogen/include/ui_widget.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -1972,8 +1987,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtGui/qimage.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/QFont \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFileDialog \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qdir.h \
@@ -2051,8 +2064,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h:
 
-/home/yijianpeng/anaconda3/include/qt/QtCore/QString:
-
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbar.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabWidget:
@@ -2090,6 +2101,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication:
 
 /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.cpp:
+
+/home/yijianpeng/anaconda3/include/qt/QtCore/QString:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h:
 

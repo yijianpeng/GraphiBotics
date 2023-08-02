@@ -332,4 +332,6 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
- /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h
+ /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h

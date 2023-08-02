@@ -362,11 +362,20 @@ CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbar.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
+ /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QButtonGroup \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qbuttongroup.h \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/QStandardItemModel \
+ /home/yijianpeng/anaconda3/include/qt/QtGui/qstandarditemmodel.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
+ /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QVBoxLayout \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qboxlayout.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolBar \
- /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
- /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLabel \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabBar \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \

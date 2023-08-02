@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "widget.h"
 #include "QVBoxLayout"
 #include "QToolButton"
 #include "QToolBar"
@@ -251,7 +252,9 @@ void MainWindow::bianyi_clicked()
 {
     qDebug("按下编译按钮");
     //终端发送命令
+    qDebug("%s",qPrintable(Widget::filePath));  
     system("ls");
+    
 }
 
 void MainWindow::run_clicked()

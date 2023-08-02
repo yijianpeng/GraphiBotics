@@ -3,6 +3,7 @@
   /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h \
   /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qalgorithms.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qarraydata.h \
