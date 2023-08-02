@@ -34,6 +34,7 @@ Widget::Widget(QWidget *parent)
     search_action = new QAction;
     search_action->setToolTip("搜索");//设置鼠标悬浮的提示
     search_action->setIcon(QIcon(":/pic/search.png"));//加载显示图片
+
     SearchLineEdit = new QLineEdit(ui->page_1);
     //设置编辑框位置大小
     SearchLineEdit->setGeometry(0, 10, 200, 50);
@@ -81,6 +82,11 @@ void Widget::search()
     qDebug("Open Project button clicked");
 }
 
+
+
+
+
+
 //QPainter绘制函数
 void Widget::paintEvent(QPaintEvent *event)
 {
@@ -124,12 +130,11 @@ Widget::~Widget()
 void Widget::on_openpjbtn_clicked()
 {
     qDebug("Open Project button clicked");
-    //
     QString filePath = QFileDialog::getOpenFileName(this, tr("Open .cpp File"), QDir::homePath(), tr("C++ Files (*.cpp);;All Files (*.*)"));
     if (filePath.isEmpty()) return;
         if (filePath.isEmpty()) return;
 
-    QFile file(filePath); //
+    QFile file(filePath); 
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QMessageBox::warning(this, tr("Error"), tr("Cannot open file: %1").arg(file.errorString()));
@@ -138,15 +143,15 @@ void Widget::on_openpjbtn_clicked()
     QTextStream in(&file);
     QString content = in.readAll();
     file.close();
-    w2.setContent(content);
-    w2.show();
+    //设置主窗口
+    mainw.setContent(content);
+    mainw.show();
 }
 
 //新建工程的槽函数
 void Widget::on_newpjbtn_clicked()
 {
-    w2.show();
-
+    mainw.show();
 }
 
 //获取工程槽函数
@@ -155,7 +160,6 @@ void Widget::on_getpjbtn_clicked()
     //打开网页
     QDesktopServices::openUrl(QUrl("https://www.csdn.net", QUrl::TolerantMode));
 }
-
 
 //设置按钮的槽函数
 void Widget::on_settingbtn_clicked()

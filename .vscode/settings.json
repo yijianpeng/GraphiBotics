@@ -3,6 +3,7 @@
     "editor.mouseWheelZoom": true,
     "files.associations": {
         "qmessagebox": "cpp",
-        "qicon": "cpp"
+        "qicon": "cpp",
+        "new": "cpp"
     }
 }

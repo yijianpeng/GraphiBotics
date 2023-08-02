@@ -71,10 +71,34 @@ include CMakeFiles/GraphiBotics.dir/flags.make
 
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic.qrc
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: CMakeFiles/GraphiBotics_autogen.dir/AutoRcc_pic_EWIEGA46WW_Info.json
-GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/1.png
-GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/logo.png
-GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/search.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/jiashi.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/xinhao.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/inandout.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/yunxing.png
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/setting.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/xie.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/lianjie.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/CPU.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/xie1.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/shijian.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/shijiao.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/start.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/cexiao.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/peizhi.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/restart.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/stopline.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/beifen.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/8086fec642ff1c74a3ec3ce6002a036.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/kongzhimianban.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/1.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/user.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/inout.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/lianjie3.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/duankai.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/search.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/bianyi.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/logo.png
+GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/Project/QTproject/GraphiBotics/pic/wenjianchaunshu.png
 GraphiBotics_autogen/EWIEGA46WW/qrc_pic.cpp: /home/yijianpeng/anaconda3/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for pic.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/yijianpeng/Project/QTproject/GraphiBotics/build/CMakeFiles/GraphiBotics_autogen.dir/AutoRcc_pic_EWIEGA46WW_Info.json Debug

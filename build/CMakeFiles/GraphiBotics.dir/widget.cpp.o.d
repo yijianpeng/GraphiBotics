@@ -320,6 +320,13 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/include/./ui_widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -360,7 +367,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlabel.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QPushButton \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qpushbutton.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QSpacerItem \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QStackedWidget \
@@ -369,7 +375,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtablewidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtableview.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLineEdit \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlineedit.h \
@@ -383,10 +388,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
- /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFileDialog \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h \
  /home/yijianpeng/anaconda3/include/qt/QtCore/qdir.h \

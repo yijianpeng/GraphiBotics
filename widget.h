@@ -30,7 +30,7 @@ private:
     QLineEdit *SearchLineEdit;
     QButtonGroup *btnGroup;
     QStandardItemModel *m_pmodel;
-    MainWindow w2;
+    MainWindow mainw;
     
 
 public slots: // 在slots关键字下声明槽函数

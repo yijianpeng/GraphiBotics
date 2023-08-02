@@ -9,9 +9,9 @@
 #include <QIcon>
 #include "cpp_syntax_highlighter.h"
 #include <QProcess>
-
-
-
+#include <QAction>
+#include <QDebug>
+#include <qdebug.h>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -200,7 +200,7 @@ MainWindow::MainWindow(QWidget *parent)
     barbutton16->setFixedSize(88,60); // 设置宽度为50，高度为50
     module3ToolBar->addWidget(barbutton16);
 
-    QToolButton *barbutton17 = new QToolButton(this);
+    barbutton17 = new QToolButton(this);
     barbutton17->setText("配置");
     barbutton17->setIcon(QIcon(":/pic/peizhi.png"));
     barbutton17->setIconSize(QSize(12,12)); // 设置图标的大小
@@ -214,26 +214,32 @@ MainWindow::MainWindow(QWidget *parent)
     //图形化编程的图标大小设置
     //获取对象路径
     // 获取图像路径
-
-
     //状态栏显示的信息
     // 创建标签用于显示信息
     QLabel* messageLabel = new QLabel(this);
     messageLabel->setAlignment(Qt::AlignRight | Qt::AlignVCenter);  // 设置对齐方式为靠右
     ui->statusBar->addPermanentWidget(messageLabel);
     // 更新信息
-    messageLabel->setText("设备状态:正常  IP地址:192.168.1.101    端口:85");
-}
+    messageLabel->setText("设备状态:正常  IP地址:R192.168.1.101    端口:85");
 
+    /*工具栏按钮各个槽函数的绑定*/
+    //编译按钮
+    connect(barbutton13,SIGNAL(clicked()),SLOT(bianyi_clicked()));
+    //运行按钮
+    connect(barbutton14,SIGNAL(clicked()),SLOT(run_clicked()));
+    //调试按钮
+    connect(barbutton15,SIGNAL(clicked()),SLOT(debug_clicked()));
+    
+}
 
 void MainWindow::setContent(const QString &content)
 {
+    qDebug("已经打开文件");
     //设置语法高亮功能
     highlighter = new CppSyntaxHighlighter(ui->plainTextEdit->document());
     //传入数据
     ui->plainTextEdit->setPlainText(content);
 }
-
 
 MainWindow::~MainWindow()
 {
@@ -241,4 +247,20 @@ MainWindow::~MainWindow()
 }
 
 
+void MainWindow::bianyi_clicked()
+{
+    qDebug("按下编译按钮");
+    //终端发送命令
+    system("ls");
+}
 
+void MainWindow::run_clicked()
+{
+    qDebug("按下运行按钮");
+}
+
+
+void MainWindow::debug_clicked()
+{
+    qDebug("按下调试按钮");
+}

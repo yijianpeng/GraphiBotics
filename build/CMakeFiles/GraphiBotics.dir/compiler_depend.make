@@ -361,6 +361,13 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: GraphiB
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
   /home/yijianpeng/Project/QTproject/GraphiBotics/cpp_syntax_highlighter.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp \
   /home/yijianpeng/Project/QTproject/GraphiBotics/widget.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
@@ -1088,6 +1095,13 @@ CMakeFiles/GraphiBotics.dir/main.cpp.o: /home/yijianpeng/Project/QTproject/Graph
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -1450,13 +1464,17 @@ CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: /home/yijianpeng/Project/QTproject
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
-  GraphiBotics_autogen/include/ui_mainwindow.h \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
-  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  GraphiBotics_autogen/include/ui_mainwindow.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QApplication \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qapplication.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qcoreapplication.h \
@@ -1504,9 +1522,6 @@ CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: /home/yijianpeng/Project/QTproject
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QVBoxLayout \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qboxlayout.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolBar \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
@@ -1514,7 +1529,14 @@ CMakeFiles/GraphiBotics.dir/mainwindow.cpp.o: /home/yijianpeng/Project/QTproject
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTabBar \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/QIcon \
-  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h
+  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QProcess \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qprocess.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/QDebug \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qdebug.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qtextstream.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qcontiguouscache.h \
+  /home/yijianpeng/anaconda3/include/qt/QtCore/qdebug.h
 
 CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/GraphiBotics/widget.cpp \
   /usr/include/stdc-predef.h \
@@ -1884,6 +1906,13 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtextformat.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QRegularExpression \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qregularexpression.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   GraphiBotics_autogen/include/ui_widget.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qvariant.h \
@@ -1924,7 +1953,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlabel.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QPushButton \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qpushbutton.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QSpacerItem \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QStackedWidget \
@@ -1933,7 +1961,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtablewidget.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtableview.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLineEdit \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlineedit.h \
@@ -1947,10 +1974,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
   /home/yijianpeng/anaconda3/include/qt/QtGui/qfont.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/QString \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qstring.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
-  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFileDialog \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h \
   /home/yijianpeng/anaconda3/include/qt/QtCore/qdir.h \
@@ -2020,6 +2043,8 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QFrame:
 
+/home/yijianpeng/anaconda3/include/qt/QtCore/QProcess:
+
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qfiledialog.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtGui/QIcon:
@@ -2027,10 +2052,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabbar.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/QString:
-
-/home/yijianpeng/anaconda3/include/qt/QtWidgets/QPushButton:
-
-/home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbar.h:
 
@@ -2053,8 +2074,6 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qlayout.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QLayout:
-
-/home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/QVariant:
 
@@ -2087,6 +2106,12 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtextbrowser.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtWidgets/QTextBrowser:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/QPushButton:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtGui/qcursor.h:
 
@@ -2188,9 +2213,9 @@ CMakeFiles/GraphiBotics.dir/widget.cpp.o: /home/yijianpeng/Project/QTproject/Gra
 
 /usr/include/c++/11/ratio:
 
-/home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h:
-
 /home/yijianpeng/Project/QTproject/GraphiBotics/mainwindow.cpp:
+
+/home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
@@ -2444,6 +2469,8 @@ GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
+/home/yijianpeng/anaconda3/include/qt/QtCore/qprocess.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/qnamespace.h:
@@ -2619,6 +2646,8 @@ GraphiBotics_autogen/include/ui_widget.h:
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
+
+/home/yijianpeng/anaconda3/include/qt/QtCore/QDebug:
 
 /home/yijianpeng/anaconda3/include/qt/QtCore/qobjectdefs.h:
 

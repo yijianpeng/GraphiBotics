@@ -310,6 +310,13 @@ CMakeFiles/GraphiBotics.dir/GraphiBotics_autogen/mocs_compilation.cpp.o: \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
  /home/yijianpeng/anaconda3/include/qt/QtGui/qicon.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../cpp_syntax_highlighter.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
+ /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/moc_widget.cpp \
  /home/yijianpeng/Project/QTproject/GraphiBotics/build/GraphiBotics_autogen/EWIEGA46WW/../../../widget.h \
  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QWidget \

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1004</width>
-    <height>702</height>
+    <width>1095</width>
+    <height>782</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,54 +17,13 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTabWidget" name="tabWidget">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>0</y>
-      <width>231</width>
-      <height>401</height>
-     </rect>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="tab">
-     <attribute name="title">
-      <string>图形逻辑</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_2">
-     <attribute name="title">
-      <string>模板工程</string>
-     </attribute>
-    </widget>
-   </widget>
-   <widget class="QTabWidget" name="tabWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>0</y>
-      <width>561</width>
-      <height>401</height>
-     </rect>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="tab_3">
-     <attribute name="title">
-      <string>project</string>
-     </attribute>
-    </widget>
-   </widget>
    <widget class="QTabWidget" name="tabWidget_3">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
       <width>211</width>
-      <height>621</height>
+      <height>721</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -241,9 +200,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>400</y>
-      <width>551</width>
-      <height>221</height>
+      <y>480</y>
+      <width>571</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -309,15 +268,58 @@
      </attribute>
     </widget>
    </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit">
+   <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>410</y>
-      <width>231</width>
-      <height>211</height>
+      <x>780</x>
+      <y>0</y>
+      <width>311</width>
+      <height>721</height>
      </rect>
     </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>图形逻辑</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>模板工程</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>571</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>571</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_10">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -325,15 +327,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1004</width>
-     <height>22</height>
+     <width>1095</width>
+     <height>27</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
     <property name="title">
      <string>文件</string>
     </property>
-    <addaction name="actionws"/>
+    <addaction name="actbianyi"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -367,9 +369,22 @@
     <bool>false</bool>
    </attribute>
   </widget>
-  <action name="actionws">
+  <action name="actbianyi">
    <property name="text">
     <string>新建工程</string>
+   </property>
+   <property name="toolTip">
+    <string>11</string>
+   </property>
+  </action>
+  <action name="actrun">
+   <property name="text">
+    <string>运行</string>
+   </property>
+  </action>
+  <action name="actdebug">
+   <property name="text">
+    <string>调试</string>
    </property>
   </action>
  </widget>

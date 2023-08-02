@@ -103,10 +103,16 @@
   /home/yijianpeng/anaconda3/include/qt/QtGui/qtransform.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qvector2d.h \
   /home/yijianpeng/anaconda3/include/qt/QtGui/qwindowdefs.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QAction \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/QMainWindow \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/QToolButton \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qaction.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qactiongroup.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qmainwindow.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtabwidget.h \
+  /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtoolbutton.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
   /home/yijianpeng/anaconda3/include/qt/QtWidgets/qwidget.h \

@@ -31,13 +31,10 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionws;
+    QAction *actbianyi;
+    QAction *actrun;
+    QAction *actdebug;
     QWidget *centralwidget;
-    QTabWidget *tabWidget;
-    QWidget *tab;
-    QWidget *tab_2;
-    QTabWidget *tabWidget_2;
-    QWidget *tab_3;
     QTabWidget *tabWidget_3;
     QWidget *tab_4;
     QLabel *label_7;
@@ -73,7 +70,13 @@ public:
     QWidget *tab_7;
     QWidget *tab_8;
     QWidget *tab_9;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QWidget *tab_2;
+    QTabWidget *tabWidget_2;
+    QWidget *tab_3;
     QPlainTextEdit *plainTextEdit;
+    QWidget *tab_10;
     QMenuBar *menubar;
     QMenu *menu;
     QMenu *menu_2;
@@ -86,30 +89,19 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1004, 702);
+        MainWindow->resize(1095, 782);
         MainWindow->setDockNestingEnabled(false);
-        actionws = new QAction(MainWindow);
-        actionws->setObjectName(QString::fromUtf8("actionws"));
+        actbianyi = new QAction(MainWindow);
+        actbianyi->setObjectName(QString::fromUtf8("actbianyi"));
+        actrun = new QAction(MainWindow);
+        actrun->setObjectName(QString::fromUtf8("actrun"));
+        actdebug = new QAction(MainWindow);
+        actdebug->setObjectName(QString::fromUtf8("actdebug"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        tabWidget = new QTabWidget(centralwidget);
-        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(770, 0, 231, 401));
-        tab = new QWidget();
-        tab->setObjectName(QString::fromUtf8("tab"));
-        tabWidget->addTab(tab, QString());
-        tab_2 = new QWidget();
-        tab_2->setObjectName(QString::fromUtf8("tab_2"));
-        tabWidget->addTab(tab_2, QString());
-        tabWidget_2 = new QTabWidget(centralwidget);
-        tabWidget_2->setObjectName(QString::fromUtf8("tabWidget_2"));
-        tabWidget_2->setGeometry(QRect(210, 0, 561, 401));
-        tab_3 = new QWidget();
-        tab_3->setObjectName(QString::fromUtf8("tab_3"));
-        tabWidget_2->addTab(tab_3, QString());
         tabWidget_3 = new QTabWidget(centralwidget);
         tabWidget_3->setObjectName(QString::fromUtf8("tabWidget_3"));
-        tabWidget_3->setGeometry(QRect(0, 0, 211, 621));
+        tabWidget_3->setGeometry(QRect(0, 0, 211, 721));
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
         label_7 = new QLabel(tab_4);
@@ -222,7 +214,7 @@ public:
         tabWidget_3->addTab(tab_5, QString());
         tabWidget_4 = new QTabWidget(centralwidget);
         tabWidget_4->setObjectName(QString::fromUtf8("tabWidget_4"));
-        tabWidget_4->setGeometry(QRect(210, 400, 551, 221));
+        tabWidget_4->setGeometry(QRect(210, 480, 571, 241));
         tab_6 = new QWidget();
         tab_6->setObjectName(QString::fromUtf8("tab_6"));
         verticalScrollBar_2 = new QScrollBar(tab_6);
@@ -245,13 +237,31 @@ public:
         tab_9 = new QWidget();
         tab_9->setObjectName(QString::fromUtf8("tab_9"));
         tabWidget_4->addTab(tab_9, QString());
-        plainTextEdit = new QPlainTextEdit(centralwidget);
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
+        tabWidget->setGeometry(QRect(780, 0, 311, 721));
+        tab = new QWidget();
+        tab->setObjectName(QString::fromUtf8("tab"));
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
+        tabWidget->addTab(tab_2, QString());
+        tabWidget_2 = new QTabWidget(centralwidget);
+        tabWidget_2->setObjectName(QString::fromUtf8("tabWidget_2"));
+        tabWidget_2->setGeometry(QRect(210, 0, 571, 481));
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QString::fromUtf8("tab_3"));
+        plainTextEdit = new QPlainTextEdit(tab_3);
         plainTextEdit->setObjectName(QString::fromUtf8("plainTextEdit"));
-        plainTextEdit->setGeometry(QRect(770, 410, 231, 211));
+        plainTextEdit->setGeometry(QRect(0, 0, 571, 451));
+        tabWidget_2->addTab(tab_3, QString());
+        tab_10 = new QWidget();
+        tab_10->setObjectName(QString::fromUtf8("tab_10"));
+        tabWidget_2->addTab(tab_10, QString());
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1004, 22));
+        menubar->setGeometry(QRect(0, 0, 1095, 27));
         menu = new QMenu(menubar);
         menu->setObjectName(QString::fromUtf8("menu"));
         menu_2 = new QMenu(menubar);
@@ -272,14 +282,13 @@ public:
         menubar->addAction(menu_2->menuAction());
         menubar->addAction(menu_3->menuAction());
         menubar->addAction(menu_4->menuAction());
-        menu->addAction(actionws);
+        menu->addAction(actbianyi);
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(0);
-        tabWidget_2->setCurrentIndex(0);
         tabWidget_3->setCurrentIndex(0);
         tabWidget_4->setCurrentIndex(3);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -288,10 +297,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "GraphiBotics", nullptr));
-        actionws->setText(QCoreApplication::translate("MainWindow", "\346\226\260\345\273\272\345\267\245\347\250\213", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("MainWindow", "\345\233\276\345\275\242\351\200\273\350\276\221", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("MainWindow", "\346\250\241\346\235\277\345\267\245\347\250\213", nullptr));
-        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QCoreApplication::translate("MainWindow", "project", nullptr));
+        actbianyi->setText(QCoreApplication::translate("MainWindow", "\346\226\260\345\273\272\345\267\245\347\250\213", nullptr));
+#if QT_CONFIG(tooltip)
+        actbianyi->setToolTip(QCoreApplication::translate("MainWindow", "11", nullptr));
+#endif // QT_CONFIG(tooltip)
+        actrun->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
+        actdebug->setText(QCoreApplication::translate("MainWindow", "\350\260\203\350\257\225", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "\350\256\276\345\244\207IP:", nullptr));
         lineEdit->setText(QCoreApplication::translate("MainWindow", "192.168.1.101", nullptr));
         groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "\350\275\257\344\275\223\346\234\272\345\231\250\344\272\2721", nullptr));
@@ -312,6 +323,10 @@ public:
         tabWidget_4->setTabText(tabWidget_4->indexOf(tab_7), QCoreApplication::translate("MainWindow", "\350\276\223\345\207\272", nullptr));
         tabWidget_4->setTabText(tabWidget_4->indexOf(tab_8), QCoreApplication::translate("MainWindow", "\350\260\203\350\257\225\346\216\247\345\210\266\345\217\260", nullptr));
         tabWidget_4->setTabText(tabWidget_4->indexOf(tab_9), QCoreApplication::translate("MainWindow", "\347\273\210\347\253\257", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("MainWindow", "\345\233\276\345\275\242\351\200\273\350\276\221", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("MainWindow", "\346\250\241\346\235\277\345\267\245\347\250\213", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_3), QCoreApplication::translate("MainWindow", "Tab 1", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(tab_10), QCoreApplication::translate("MainWindow", "Tab 2", nullptr));
         menu->setTitle(QCoreApplication::translate("MainWindow", "\346\226\207\344\273\266", nullptr));
         menu_2->setTitle(QCoreApplication::translate("MainWindow", "\345\237\272\346\234\254", nullptr));
         menu_3->setTitle(QCoreApplication::translate("MainWindow", "\346\216\247\345\210\266\345\231\250", nullptr));
